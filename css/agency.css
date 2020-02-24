@@ -225,7 +225,7 @@ header.masthead {
   width: 80vw;
   max-width: 1200px;
   height: 60vh;
-  transform: translateY(20vh);
+  transform: translateY(16vh);
 }
 @media (min-width: 768px){
   #big_logo {
@@ -241,7 +241,7 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 8vh;
+  padding-top: 5vh;
   padding-bottom: 50px;
 }
 
