@@ -220,18 +220,21 @@ header.masthead {
   background: url("../img/logo_white_mobile.png");
   background-repeat: no-repeat;
   background-size: 80vw;
+  background-position: bottom;
   /*margin-top: 185px;*/
   margin: auto;
   width: 80vw;
   max-width: 1200px;
-  height: 60vh;
-  transform: translateY(16vh);
+  height: 50vh;
+  /*transform: translateY(16vh);*/
 }
-@media (min-width: 768px){
+@media (orientation: landscape){
   #big_logo {
     background: url("../img/logo_white.png");
     background-repeat: no-repeat;
     background-size: 80vw;
+    background-position: bottom;
+    /*height: 60vh;*/
   }
 }
 @media (min-width: 1500px){

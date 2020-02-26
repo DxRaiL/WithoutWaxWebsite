@@ -23,7 +23,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -54,6 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582496618733</updated>
       <workItem from="1582496621959" duration="19719000" />
+      <workItem from="1582757652158" duration="1630000" />
     </task>
     <servers />
   </component>
