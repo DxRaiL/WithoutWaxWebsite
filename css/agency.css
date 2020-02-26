@@ -104,7 +104,7 @@ img::-moz-selection {
   padding: 10px 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .btn-xl {
     font-size: 18px;
     padding: 20px 40px;
@@ -225,8 +225,9 @@ header.masthead {
   margin: auto;
   width: 80vw;
   max-width: 1200px;
-  height: 50vh;
-  /*transform: translateY(16vh);*/
+  height: 55vh;
+  min-height: 200px;
+  /*transform: translateY(15vh);*/
 }
 @media (orientation: landscape){
   #big_logo {
@@ -262,15 +263,17 @@ header.masthead .intro-text .intro-heading {
   header.masthead .intro-text {
     padding-top: 100px;
   }
+  .conditional_br {
+    display: none;
+  }
+} 
+@media (min-width: 992px) {
   header.masthead .intro-text .intro-heading {
     font-size: 30px;
     font-weight: 700;
     line-height: 44px;
     margin-bottom: 50px;
     /*font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';*/
-  }
-  .conditional_br {
-    display: none;
   }
 }
 
