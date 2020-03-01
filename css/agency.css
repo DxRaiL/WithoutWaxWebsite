@@ -545,6 +545,35 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+
+#philosophy .section-subheading {
+  margin-bottom: 40px;
+}
+
+.logo_container {
+  margin: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 120px 1fr 1fr;
+}
+
+.logo {
+  height: 90px;
+  margin: auto;
+}
+
+.logo img {
+  max-height: 100%;
+}
+
+.logo.pad-top {
+  padding-top: 20px;
+}
+
+.logo.tall {
+  height: 130px;
+}
+
+
 section#contact {
   background-color: #212529;
   background-image: url("../img/parchment-bg.jpg");
