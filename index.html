@@ -95,9 +95,10 @@
           </a>
           <h4 class="service-heading">BOOKKEEPING</h4>
           <p class="text-muted">We take care of all your bookkeeping needs, so you can spend your time growing your business instead of spending countless hours doing your own bookkeeping. .</p>
+          <a class="btn btn-primary text-uppercase" data-toggle="modal" href="#serviceModal1">Learn More</a>
         </div>
         <div class="col-md-3">
-          <a data-toggle="modal" href="#serviceModal3">
+          <a data-toggle="modal" href="#serviceModal2">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-users fa-stack-1x fa-inverse"></i>
@@ -105,21 +106,26 @@
           </a>
           <h4 class="service-heading">HR - PAYROLL</h4>
           <p class="text-muted">We provide a variety of options for payroll processing customized to your needs.</p>
+          <a class="btn btn-primary text-uppercase" data-toggle="modal" href="#serviceModal2">Learn More</a>
         </div>
         <div class="col-md-3">
-          <a data-toggle="modal" href="#serviceModal2">
+          <a data-toggle="modal" href="#serviceModal3">
             <img class="qbfa" src="img/qb.png">
           </a>
           <h4 class="service-heading">QUICKBOOKS</h4>
           <p class="text-muted">Whether you need an initial setup, data cleanup, training, or on-going maintenance, we offer a full range of services to assist you with your QuickBooks® software.</p>
+          <a class="btn btn-primary text-uppercase" data-toggle="modal" href="#serviceModal3">Learn More</a>
         </div>
         <div class="col-md-3">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-file-invoice-dollar fa-stack-1x fa-inverse"></i>
-          </span>
+          <a data-toggle="modal" href="#serviceModal4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-file-invoice-dollar fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
           <h4 class="service-heading">TAX</h4>
           <p class="text-muted">Year-round tax services for individuals and businesses.</p>
+          <a class="btn btn-primary text-uppercase" data-toggle="modal" href="#serviceModal4">Learn More</a>
         </div>
       </div>
     </div>
@@ -266,11 +272,6 @@
          <img class="img-fluid d-block mx-auto" alt="Waxahachie Chamber of Commerce logo" src="img/logos/waxahachie-chamber.png">
        </a>
      </div>
-     <div class="logo pad-top">
-       <a href="http://www.desotochamber.org/">
-         <img class="img-fluid d-block mx-auto" alt="Desoto Chamber of Commerce logo" src="img/logos/desoto-chamber.png">
-       </a>
-     </div>
      <div class="logo tall">
        <a href="https://quickbooks.intuit.com/">
          <img class="img-fluid d-block mx-auto" alt="QuickBooks Certified ProAdvisor" src="img/logos/QB-Online-Logo-2.png">
@@ -380,7 +381,7 @@
   <!-- Portfolio Modals -->
 
   <!-- Modal 1 -->
-  <div class="portfolio-modal modal fade" id="serviceModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="service-modal modal fade" id="serviceModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -393,7 +394,7 @@
             <div class="modal-body">
               <!-- Project Details Go Here -->
               <h2 class="text-uppercase">BOOKKEEPING</h2>
-              <div class="row">
+              <div class="row mb-3">
                 <div class="col-sm-6">
                   <img class="img-fluid d-block mx-auto" src="img/services/calculator.jpg" alt="">
                 </div>
@@ -429,7 +430,62 @@
   </div>
 
   <!-- Modal 2 -->
-  <div class="portfolio-modal modal fade" id="serviceModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="service-modal modal fade" id="serviceModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="col-lg-10 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">HUMAN RESOURCES/PAYROLL</h2>
+              <div class="row mb-3">
+                <div class="col-sm-6">
+                  <img class="img-fluid d-block mx-auto" src="img/services/notebook.jpg" alt="">
+                </div>
+                <div class="col-sm-6 modal-subheading">
+                  <b>Not every business deals with employees the same way.  We offer services customized to your needs. </b>
+                </div>
+              </div>
+              <ul class="spaced">
+                <li>
+                  <b>Employee Time Tracking</b>
+                </li>
+                <li>
+                  <b>Payroll Processing</b>
+                </li>
+                <li>
+                  <b>Payroll Reports</b>
+                </li>
+                <li>
+                  <b>Payroll Tax Filings</b>
+                </li>
+                <li>
+                  <b>Employment Compliance and Record Keeping</b>
+                </li>
+                <li>
+                  <b>Employment Forms</b>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- <div class="button-container">
+            <button class="btn btn-primary" data-dismiss="modal" type="button">
+              <i class="fas fa-times"></i>
+              Close
+            </button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="service-modal modal fade" id="serviceModal3" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -442,7 +498,7 @@
             <div class="modal-body">
               <!-- Project Details Go Here -->
               <h2 class="text-uppercase">QUICKBOOKS</h2>
-              <div class="row">
+              <div class="row mb-3">
                 <div class="col-sm-6">
                   <img class="img-fluid d-block mx-auto" src="img/qb.png" alt="">
                 </div>
@@ -489,9 +545,8 @@
     </div>
   </div>
 
-
-  <!-- Modal 3 -->
-  <div class="portfolio-modal modal fade" id="serviceModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <!-- Modal 4 -->
+  <div class="service-modal modal fade" id="serviceModal4" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -503,35 +558,26 @@
           <div class="col-lg-10 mx-auto">
             <div class="modal-body">
               <!-- Project Details Go Here -->
-              <h2 class="text-uppercase">HUMAN RESOURCES/PAYROLL</h2>
-              <div class="row">
+              <h2 class="text-uppercase">TAXES</h2>
+              <div class="row mb-3">
                 <div class="col-sm-6">
-                  <img class="img-fluid d-block mx-auto" src="img/services/notebook.jpg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="img/services/calculator-2.jpg" alt="">
                 </div>
                 <div class="col-sm-6 modal-subheading">
-                  <b>Not every business deals with employees the same way.  We offer services customized to your needs. </b>
+                  <ul class="spaced">
+                    <li>
+                      <b>Personal Tax Return Preparation</b>
+                    </li>
+                    <li>
+                      <b>Business Tax Return Preparation</b>
+                    </li>
+                    <li>
+                      <b>Year Round Service​</b>
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <ul class="spaced">
-                <li>
-                  <b>Employee Time Tracking</b>
-                </li>
-                <li>
-                  <b>Payroll Processing</b>
-                </li>
-                <li>
-                  <b>Payroll Reports</b>
-                </li>
-                <li>
-                  <b>Payroll Tax Filings</b>
-                </li>
-                <li>
-                  <b>Employment Compliance and Record Keeping</b>
-                </li>
-                <li>
-                  <b>Employment Forms</b>
-                </li>
-              </ul>
+
             </div>
           </div>
           <!-- <div class="button-container">
@@ -540,40 +586,6 @@
               Close
             </button>
           </div> -->
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 4 -->
-  <div class="portfolio-modal modal fade" id="serviceModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Lines</li>
-                  <li>Category: Branding</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
