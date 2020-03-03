@@ -644,7 +644,12 @@ header.masthead .intro-text .intro-heading {
 .logo_container {
   margin: 0 20px;
   display: grid;
-  grid-template-columns: 1fr 1fr 120px 1fr 1fr;
+}
+
+@media (min-width: 768px) {
+  .logo_container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 .logo {
