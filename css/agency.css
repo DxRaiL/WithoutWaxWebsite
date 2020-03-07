@@ -435,6 +435,7 @@ header.masthead .intro-text .intro-heading {
 @media (min-width: 768px){
   .service-modal .modal-subheading {
     font-size: 18px;
+    grid-column: 2;
   }
 
   .modal-head-contain {
