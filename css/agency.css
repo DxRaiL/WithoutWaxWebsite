@@ -131,9 +131,12 @@ img::-moz-selection {
 	border-bottom: 5px solid var(--primary);
 	border-right: 5px solid var(--primary);
 }
+.btn-fancy:focus,
 .btn-fancy:hover{
   color: white;
+  box-shadow: none;
 }
+.btn-fancy:focus:before,.btn-fancy:focus:after,
 .btn-fancy:hover:before,.btn-fancy:hover:after{
 	width: calc(100% + 10px);
 	height: calc(100% + 10px);
